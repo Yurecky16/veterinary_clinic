@@ -1,6 +1,7 @@
 body {
 	@include regular;
-	background: #e5e5e5;
+	// background: #e5e5e5;
+	background-image: url(/img/bg.svg);
 }
 .phone {
 	color: #333;

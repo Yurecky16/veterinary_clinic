@@ -34,7 +34,7 @@
 
 body {
   font-family: "Futura PT Book", sans-serif;
-  background: #e5e5e5;
+  background-image: url(/img/bg.svg);
 }
 
 .phone {
@@ -234,5 +234,34 @@ button {
 .care-button {
   margin-left: 735px;
   margin-top: 38px;
+}
+
+.quote {
+  background: url(/img/quotes.svg) no-repeat;
+  background-position: 50% -50%;
+}
+
+.quote-text {
+  font-family: "Futura PT Book", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+}
+
+.quote-subscription {
+  font-family: "Futura PT Bold", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 191px;
+}
+
+.quote-line {
+  width: 140px;
+  border: none;
+  margin: 39px auto;
+  border-top: 1px solid #dbdbdb;
 }
 /*# sourceMappingURL=style.css.map */

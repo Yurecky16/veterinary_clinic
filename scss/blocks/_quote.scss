@@ -1,0 +1,39 @@
+.quote {
+	background: url(/img/quotes.svg) no-repeat;
+	background-position: 50% -50%;
+	&-text {
+		@include regular;
+		font-size: 20px;
+		line-height: 26px;
+		text-align: center;
+		color: #949494;
+		// &::before {
+		// 	content: ".";
+		// 	font-size: 0;
+		// 	background: url(/img/quote.svg) no-repeat;
+		// 	background-size: auto;
+		// 	// position: relative;
+		// 	display: block;
+		// 	width: 54px;
+		// 	height: 44px;
+		// }
+		// // &::after {
+
+		// // }
+	}
+	&-subscription {
+		@include bold;
+		font-size: 20px;
+		line-height: 26px;
+		text-align: center;
+		color: #333333;
+
+		margin-bottom: 191px;
+	}
+	&-line {
+		width: 140px;
+		border: none;
+		margin: 39px auto;
+		border-top: 1px solid #dbdbdb;
+	}
+}
