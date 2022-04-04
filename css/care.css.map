@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACL,gBAAgB,EAAE,6BAA6B;CAC/C",
+    "sources": [
+        "../scss/blocks/care.scss"
+    ],
+    "names": [],
+    "file": "care.css"
+}

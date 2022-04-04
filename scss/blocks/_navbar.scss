@@ -1,0 +1,82 @@
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	@include medium;
+	font-size: 14px;
+	color: #333;
+	&-wrap {
+		display: flex;
+		flex-direction: column;
+		min-height: 108px;
+	}
+}
+.logo {
+	position: absolute;
+	margin-top: 21px;
+	margin-left: 65px;
+}
+.header {
+	&-up {
+		background: #f9f8f8;
+		&-wrap {
+			margin-left: 258px;
+			margin-right: 65px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 39px;
+			max-width: 1117px;
+		}
+	}
+	&-down {
+		background: #ffffff;
+		&-wrap {
+			margin-left: 358px;
+			margin-right: 65px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			max-width: 1117px;
+			height: 61px;
+		}
+	}
+	&-menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: 12px;
+		width: 692px;
+		&-wrap {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 725px;
+		}
+		&-link {
+			@include medium;
+			font-size: 16px;
+			color: #333;
+			text-decoration: none;
+		}
+	}
+}
+.work-time {
+	width: 276px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.phones {
+	width: 396px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.location {
+	width: 241px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

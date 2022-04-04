@@ -1,0 +1,33 @@
+.care {
+	background: url(/img/care_background.png) no-repeat;
+	background-size: cover;
+	padding-top: 253px;
+	height: 840px;
+	.caption {
+		@include bold;
+		width: 608px;
+		height: 128px;
+		margin-left: 735px;
+
+		font-size: 70px;
+		line-height: 64px;
+	}
+	.caption_2nd {
+		color: #78c0de;
+	}
+	.text {
+		width: 495px;
+		height: 105px;
+		margin-left: 735px;
+		margin-top: 29px;
+
+		font-size: 16px;
+		line-height: 21px;
+
+		color: #949494;
+	}
+	&-button {
+		margin-left: 735px;
+		margin-top: 38px;
+	}
+}
